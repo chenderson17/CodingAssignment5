@@ -1,6 +1,8 @@
-
+*{
+  box-sizing: border-box;
+}
 body{
-    background-image:linear-gradient(rgba(34, 33, 33, 0.7),rgba(58, 56, 56, 0.7)) , url("../images/background.png");
+    /* background-image:linear-gradient(rgba(34, 33, 33, 0.7),rgba(58, 56, 56, 0.7)) , url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,9 +11,9 @@ body{
    font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem; */
 }
-h1{
+/* h1{
     font-family: "PT Serif", serif;
     font-weight: 400;
     padding:1rem;
@@ -31,29 +33,12 @@ h3,.salmon{
      color:#dfafa8;
 }
 a,a:visited{
-    color:white;
-    font-family: "PT Serif", serif;
+  color:white;
+  font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
   display: block;
    
-}
-.wrapper {
-
-  display: flex;
-  flex-direction: column;
-
-}
-div{
-     
-}
-
-.wrapper div {
-
-  flex: 1;
-  flex-direction: row;
-  margin:1rem;
-
 }
 
 .test{
@@ -103,4 +88,22 @@ p{
 }
 li{
     margin:5px 0;
+} */
+ .container{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows: repeat(4,1fr);
+ }
+.container div{
+  border: 1px solid black;
+  gap:5px;
+}
+.header{
+  grid-column: 1/4;
+}
+.footer{
+  grid-column:1/4;
+}
+img{
+  width: 100%;
 }
