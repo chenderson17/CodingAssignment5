@@ -20,7 +20,7 @@ body{
  }
 .container div{
   /* border: 1px solid black; */
-  background-color: rgba(8, 8, 37, 0.1);
+  background-color: rgba(16, 16, 17, 0.1);
   padding:2rem;
 }
 .header-container{
