@@ -12,82 +12,6 @@ body{
   font-weight: 300;
   font-style: normal;
 }
-/* h1{
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    padding:1rem;
-    font-size: 3rem;
-}
-h2,h3{
-  font-family: "PT Serif", serif;
-  font-weight: bold;
-  font-style: normal;
-}
-.logo{
-    font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-h3,.salmon{
-     color:#dfafa8;
-}
-a,a:visited{
-  color:white;
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  display: block;
-   
-}
-
-.test{
-    display: flex;
-   justify-content: space-around;
-}
-hr{
-background-color: white;
-margin:0;
-align-self: stretch;
-}
-img{
-  width: 60%;
-  float: left;
-}
-input[type="radio"]{
-    accent-color:#dfafa8;
-}
-input[type="number"]{
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: italic;
-    padding:1rem;
-    border:none;
-    border-radius: 5px;
-    padding: 10px;
-}
-fieldset{
-padding: 1rem;
-width: 50%;
-} 
-label{
-     font-family: "PT Serif", serif;
-    font-weight: 400;
-}
-hr{
-background-color: white;
-margin:0;
-align-self: stretch;
-}
-.box3,.box4{
-    background-color: rgba(34, 33, 33, 0.3);
-    padding: 2rem;
-}
-p{
-    font-variant-caps: all-small-caps;
-}
-li{
-    margin:5px 0;
-} */
  .container{
   display: grid;
   grid-template-columns:repeat(3,auto);
@@ -96,7 +20,7 @@ li{
  }
 .container div{
   /* border: 1px solid black; */
-  background-color: rgba(34, 33, 33, 0.3);
+  background-color: rgba(8, 8, 37, 0.1);
   padding:2rem;
 }
 .header-container{
